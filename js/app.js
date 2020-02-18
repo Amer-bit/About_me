@@ -47,15 +47,14 @@ else {
 }
 
 var mountainBiking = prompt('Is Mountain Biking my favourrite sport').toUpperCase();
-console.log(mountainClimbing);
-if(mountainBiking ==='Y' || mountainBiking === 'YES'){
-prompt('Hell Yeah');
+console.log(mountainBiking);
+if (mountainBiking === 'Y' || mountainBiking === 'YES') {
+  prompt('Hell Yeah');
 }
-else if(mountainBiking ==='NO' || mountainBiking ==='N')
-{
+else if (mountainBiking === 'NO' || mountainBiking === 'N') {
   prompt('You are wrong Bruh');
 }
-else{
+else {
   alert('Please submit one of the following: y/n or yes/no');
 }
 
