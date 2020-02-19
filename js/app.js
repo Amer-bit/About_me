@@ -9,7 +9,7 @@ alert('Welcome ' + clientName + ' in this page which made for adventurous');
   do you like climbing mountains
   do you like skydiving
   do you like diving deep in the sea */
-
+function guessingGame1(){
 //Question 1
 var spaceTravelingQuestion;
 spaceTravelingQuestion = prompt('Am I a space man').toUpperCase();
@@ -77,9 +77,9 @@ else if (seaDiving === 'NO' || seaDiving === 'N') {
 }
 else {
   alert('Please submit one of the following: y/n or yes/no');
-}
+}}
 //Added two new Questions for lab03 and the 8th one uses array function
-
+function Guessinggame2(){
 //Qusetion 6
 var correctGuess = 8;
 var guessAnumber = prompt('Guess a number between 0 and 10');
@@ -121,7 +121,7 @@ for (maincounter = 0; maincounter < 5; maincounter++) {
   if (guessAgame === favGame[counter]) {
     rightAnswer++;
     break;
-
+w
   }
   else {
     alert('Not one of my favourite games');
@@ -129,6 +129,9 @@ for (maincounter = 0; maincounter < 5; maincounter++) {
 
   }
 }
+}
+guessingGame1();
+Guessinggame2(); 
 
 alert('These are my favourite games ' + JSON.stringify(favGame));
 
