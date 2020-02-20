@@ -3,7 +3,7 @@ img {
     }
 body{
     margin: 0;
-    background-color: #8F83B6;
+    background-color: rgb(200, 190, 233);
     padding: 0;
     }
 h1{
@@ -12,7 +12,10 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     background-color: #5053B3;
     text-align: center;
-    padding: 10px;    
+    padding: 10px; 
+    position: fixed;
+    top: 0; 
+    width: 100%;  
     }
 p{
     font-size: 17px;
@@ -21,3 +24,14 @@ p{
     line-height: 25px;
     text-align: center;
 }
+body section p .Topten{color: rgb(7, 10, 104);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 12px;
+}
+li{
+    color:blue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+ 
