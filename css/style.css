@@ -24,7 +24,7 @@ p{
     line-height: 25px;
     text-align: center;
 }
-body section p .Topten{color: rgb(7, 10, 104);
+body section p.Topten{color: rgb(7, 10, 104);
     font-size: 25px;
     text-align: left;
     margin-left: 12px;
