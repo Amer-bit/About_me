@@ -83,7 +83,10 @@ else {
   alert('Please submit one of the following: y/n or yes/no');
 }}
 //Added two new Questions for lab03 and the 8th one uses array function
+
 function guessingGame6(){
+  
+function guessingGame2(){
 //Qusetion 6
 var correctGuess = 8;
 var guessAnumber = prompt('Guess a number between 0 and 10');
@@ -108,12 +111,12 @@ for (i = 0; i < 3; i++) {
 function guessinGgame7(){
 //Question 7
 var favGame = ['ori', 'hollow knight', 'battlefield1', 'rainbow six siege', 'tombraider']
-var maincounter;
+var mainCounter;
 var counter;
 alert('Now guess my favourite game');
 var guessAgame = prompt('Guess one of my favorite game').toLowerCase();
 
-for (maincounter = 0; maincounter < 5; maincounter++) {
+for (mainCounter = 0; mainCounter < 5; mainCounter++) {
 
   for (counter = 0; counter < favGame.length; counter++) {
 
@@ -126,22 +129,24 @@ for (maincounter = 0; maincounter < 5; maincounter++) {
   if (guessAgame === favGame[counter]) {
     rightAnswer++;
     break;
-w
+
   }
   else {
     alert('Not one of my favourite games');
     guessAgame = prompt('Guess one of my favorite game').toLowerCase();
 
   }
-}}
+}
+}
 
 guessingGame1();
-guessingGame2(); 
-guessingGame3(); 
-guessingGame4(); 
-guessingGame5(); 
-guessingGame6(); 
-guessinGgame7(); 
+guessingGame2();
+guessingGame3();
+guessingGame4();
+guessingGame5();
+guessingGame6();
+guessinGgame7();
+
 
 alert('These are my favourite games ' + JSON.stringify(favGame));
 
