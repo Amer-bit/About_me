@@ -23,7 +23,8 @@ else if (spaceTravelingQuestion == 'NO' || spaceTravelingQuestion === 'N') {
 }
 else {
   alert('Please submit one of the following: y/n or yes/no');
-}
+}}
+function guessingGame2(){
 //Question 2
 var climbingMountaingQuestion = prompt('Do i love Mountain Climbing').toUpperCase();
 console.log(climbingMountaingQuestion);
@@ -36,7 +37,8 @@ else if (climbingMountaingQuestion === 'NO' || climbingMountaingQuestion === 'N'
 }
 else {
   alert('Please submit one of the following: y/n or yes/no');
-}
+}}
+function guessingGame3(){
 //Question 3
 var skydivingQuestion = prompt('Am i a Skydiver').toUpperCase();
 console.log(skydivingQuestion);
@@ -49,7 +51,8 @@ else if (skydivingQuestion === 'NO' || skydivingQuestion === 'N') {
 }
 else {
   alert('Please submit one of the following: y/n or yes/no');
-}
+}}
+function guessingGame4(){
 //Question 4
 var mountainBiking = prompt('Is Mountain Biking my favourrite sport').toUpperCase();
 console.log(mountainBiking);
@@ -63,7 +66,8 @@ else if (mountainBiking === 'NO' || mountainBiking === 'N') {
 else {
   alert('Please submit one of the following: y/n or yes/no');
 }
-
+}
+function guessingGame5(){
 //Question 5
 var seaDiving = prompt('Do i like Seadiving').toUpperCase();
 console.log(seaDiving);
@@ -79,6 +83,9 @@ else {
   alert('Please submit one of the following: y/n or yes/no');
 }}
 //Added two new Questions for lab03 and the 8th one uses array function
+
+function guessingGame6(){
+  
 function guessingGame2(){
 //Qusetion 6
 var correctGuess = 8;
@@ -100,7 +107,8 @@ for (i = 0; i < 3; i++) {
   }
   
 }
-
+}
+function guessinGgame7(){
 //Question 7
 var favGame = ['ori', 'hollow knight', 'battlefield1', 'rainbow six siege', 'tombraider']
 var mainCounter;
@@ -121,7 +129,7 @@ for (mainCounter = 0; mainCounter < 5; mainCounter++) {
   if (guessAgame === favGame[counter]) {
     rightAnswer++;
     break;
-w
+
   }
   else {
     alert('Not one of my favourite games');
@@ -130,8 +138,15 @@ w
   }
 }
 }
+
 guessingGame1();
-guessingGame2(); 
+guessingGame2();
+guessingGame3();
+guessingGame4();
+guessingGame5();
+guessingGame6();
+guessinGgame7();
+
 
 alert('These are my favourite games ' + JSON.stringify(favGame));
 
