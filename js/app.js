@@ -23,7 +23,9 @@ else if (spaceTravelingQuestion == 'NO' || spaceTravelingQuestion === 'N') {
 }
 else {
   alert('Please submit one of the following: y/n or yes/no');
-}}
+}
+}
+
 function guessingGame2(){
 //Question 2
 var climbingMountaingQuestion = prompt('Do i love Mountain Climbing').toUpperCase();
@@ -43,7 +45,7 @@ function guessingGame3(){
 var skydivingQuestion = prompt('Am i a Skydiver').toUpperCase();
 console.log(skydivingQuestion);
 if (skydivingQuestion === 'YES' || skydivingQuestion === 'Y') {
-  alert('Yes i dreamed about Skydiving and this count');
+  alert('Yes i dreamt about Skydiving and this count');
   rightAnswer++;
 }
 else if (skydivingQuestion === 'NO' || skydivingQuestion === 'N') {
@@ -54,7 +56,7 @@ else {
 }}
 function guessingGame4(){
 //Question 4
-var mountainBiking = prompt('Is Mountain Biking my favourrite sport').toUpperCase();
+var mountainBiking = prompt('Is Mountain Biking my favourite sport').toUpperCase();
 console.log(mountainBiking);
 if (mountainBiking === 'Y' || mountainBiking === 'YES') {
   alert('That\'s Correct !!');
@@ -86,7 +88,6 @@ else {
 
 function guessingGame6(){
   
-function guessingGame2(){
 //Qusetion 6
 var correctGuess = 8;
 var guessAnumber = prompt('Guess a number between 0 and 10');
